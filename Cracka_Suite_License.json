@@ -1,0 +1,27 @@
+[
+  {
+    "key": "DJCRACKA2026",
+    "email": "",
+    "first_name": "",
+    "last_name": "",
+    "nickname": "",
+    "signup_date": "",
+    "active": true,
+    "tools": ["all"],
+    "discord_username": "",
+    "discord_id": "",
+    "youtube": "",
+    "twitch": "",
+    "kick": "",
+    "tiktok": "",
+    "notes": "",
+    "last_login": "",
+    "last_updated": "",
+    "last_edit": "",
+    "login_count": 0,
+    "is_test_account": false,
+    "referral_source": "",
+    "platform_origin": "",
+    "subscription_tier": ""
+  }
+]
