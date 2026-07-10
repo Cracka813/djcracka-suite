@@ -1,0 +1,54 @@
+name: Backup license JSON
+
+# Daily rotating backup of Cracka_Suite_License.json into the backups/ folder.
+# Keeps the 5 most recent backups; older ones are deleted automatically.
+# Runs entirely on GitHub's servers -- no PAT, no external services.
+
+on:
+  schedule:
+    - cron: '0 5 * * *'      # every day at 05:00 UTC
+  workflow_dispatch:          # lets you run it manually from the Actions tab too
+
+permissions:
+  contents: write             # allows the built-in GITHUB_TOKEN to commit the backup
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Create rotating backup
+        run: |
+          set -e
+          SRC="Cracka_Suite_License.json"
+          if [ ! -f "$SRC" ]; then
+            echo "Source $SRC not found -- nothing to back up."
+            exit 0
+          fi
+          mkdir -p backups
+          STAMP="$(date -u +%Y-%m-%d)"
+          cp "$SRC" "backups/Cracka_Suite_License_${STAMP}.json"
+          echo "Wrote backups/Cracka_Suite_License_${STAMP}.json"
+
+          # Keep only the 5 newest backups (filenames sort chronologically).
+          KEEP=5
+          ls -1 backups/Cracka_Suite_License_*.json \
+            | sort -r \
+            | tail -n +$((KEEP + 1)) \
+            | xargs -r rm --
+          echo "Retained the $KEEP most recent backups:"
+          ls -1 backups/
+
+      - name: Commit backup if changed
+        run: |
+          git config user.name  "cracka-backup-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add backups/
+          if git diff --cached --quiet; then
+            echo "No backup changes to commit."
+          else
+            git commit -m "Daily license backup ($(date -u +%Y-%m-%d))"
+            git push
+          fi
