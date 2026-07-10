@@ -7,7 +7,9 @@
     "nickname": "",
     "signup_date": "",
     "active": true,
-    "tools": ["all"],
+    "tools": [
+      "all"
+    ],
     "discord_username": "",
     "discord_id": "",
     "youtube": "",
@@ -22,6 +24,33 @@
     "is_test_account": false,
     "referral_source": "",
     "platform_origin": "",
+    "subscription_tier": ""
+  },
+  {
+    "key": "CRACKA-TESTSAVE",
+    "email": "test@cracka.gg",
+    "first_name": "",
+    "last_name": "",
+    "nickname": "",
+    "signup_date": "2026-07-10",
+    "active": true,
+    "tools": [
+      "all"
+    ],
+    "discord_username": "",
+    "discord_id": "",
+    "youtube": "",
+    "twitch": "",
+    "kick": "",
+    "tiktok": "",
+    "notes": "Auto-issued via Fourthwall — Suite",
+    "last_login": "",
+    "last_updated": "2026-07-10T17:22:02.679Z",
+    "last_edit": "2026-07-10T17:22:02.679Z",
+    "login_count": 0,
+    "is_test_account": true,
+    "referral_source": "fourthwall",
+    "platform_origin": "fourthwall",
     "subscription_tier": ""
   }
 ]
