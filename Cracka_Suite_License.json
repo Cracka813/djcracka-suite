@@ -52,5 +52,32 @@
     "referral_source": "fourthwall",
     "platform_origin": "fourthwall",
     "subscription_tier": ""
+  },
+  {
+    "key": "CRACKA-DEBUG1",
+    "email": "debug@cracka.gg",
+    "first_name": "",
+    "last_name": "",
+    "nickname": "",
+    "signup_date": "2026-07-11",
+    "active": true,
+    "tools": [
+      "all"
+    ],
+    "discord_username": "",
+    "discord_id": "",
+    "youtube": "",
+    "twitch": "",
+    "kick": "",
+    "tiktok": "",
+    "notes": "persistence probe",
+    "last_login": "",
+    "last_updated": "2026-07-11T01:40:45.916Z",
+    "last_edit": "2026-07-11T01:40:45.916Z",
+    "login_count": 0,
+    "is_test_account": true,
+    "referral_source": "fourthwall",
+    "platform_origin": "fourthwall",
+    "subscription_tier": ""
   }
 ]
