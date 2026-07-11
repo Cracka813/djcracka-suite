@@ -1,17 +1,11 @@
 [
   {
-    "key": "CRACKA-VERIFY99",
+    "key": "CRACKA-HASHTEST",
     "active": true,
     "tools": [
       "all"
-    ]
-  },
-  {
-    "key": "CRACKA-TEST0001",
-    "active": true,
-    "tools": [
-      "all"
-    ]
+    ],
+    "email_hash": "dc2d8bbdb2d7eec4d34bd23566f991fc2a0bdf31510201492249392a8cbbd96b"
   },
   {
     "key": "DJCRACKA2026",
