@@ -1,17 +1,10 @@
 [
   {
-    "key": "CRACKA-HASHTEST",
-    "active": true,
-    "tools": [
-      "all"
-    ],
-    "email_hash": "dc2d8bbdb2d7eec4d34bd23566f991fc2a0bdf31510201492249392a8cbbd96b"
-  },
-  {
     "key": "DJCRACKA2026",
     "active": true,
     "tools": [
       "all"
-    ]
+    ],
+    "email_hash": "8c5933f1ea8e51139c8439a16326ffa27445279adb6600d4c4fd9cb0284874e9"
   }
 ]
