@@ -1,83 +1,23 @@
 [
   {
+    "key": "CRACKA-VERIFY99",
+    "active": true,
+    "tools": [
+      "all"
+    ]
+  },
+  {
+    "key": "CRACKA-TEST0001",
+    "active": true,
+    "tools": [
+      "all"
+    ]
+  },
+  {
     "key": "DJCRACKA2026",
-    "email": "",
-    "first_name": "",
-    "last_name": "",
-    "nickname": "",
-    "signup_date": "",
     "active": true,
     "tools": [
       "all"
-    ],
-    "discord_username": "",
-    "discord_id": "",
-    "youtube": "",
-    "twitch": "",
-    "kick": "",
-    "tiktok": "",
-    "notes": "",
-    "last_login": "",
-    "last_updated": "",
-    "last_edit": "",
-    "login_count": 0,
-    "is_test_account": false,
-    "referral_source": "",
-    "platform_origin": "",
-    "subscription_tier": ""
-  },
-  {
-    "key": "CRACKA-TESTSAVE",
-    "email": "test@cracka.gg",
-    "first_name": "",
-    "last_name": "",
-    "nickname": "",
-    "signup_date": "2026-07-10",
-    "active": true,
-    "tools": [
-      "all"
-    ],
-    "discord_username": "",
-    "discord_id": "",
-    "youtube": "",
-    "twitch": "",
-    "kick": "",
-    "tiktok": "",
-    "notes": "Auto-issued via Fourthwall — Suite",
-    "last_login": "",
-    "last_updated": "2026-07-10T17:22:02.679Z",
-    "last_edit": "2026-07-10T17:22:02.679Z",
-    "login_count": 0,
-    "is_test_account": true,
-    "referral_source": "fourthwall",
-    "platform_origin": "fourthwall",
-    "subscription_tier": ""
-  },
-  {
-    "key": "CRACKA-DEBUG1",
-    "email": "debug@cracka.gg",
-    "first_name": "",
-    "last_name": "",
-    "nickname": "",
-    "signup_date": "2026-07-11",
-    "active": true,
-    "tools": [
-      "all"
-    ],
-    "discord_username": "",
-    "discord_id": "",
-    "youtube": "",
-    "twitch": "",
-    "kick": "",
-    "tiktok": "",
-    "notes": "persistence probe",
-    "last_login": "",
-    "last_updated": "2026-07-11T01:40:45.916Z",
-    "last_edit": "2026-07-11T01:40:45.916Z",
-    "login_count": 0,
-    "is_test_account": true,
-    "referral_source": "fourthwall",
-    "platform_origin": "fourthwall",
-    "subscription_tier": ""
+    ]
   }
 ]
